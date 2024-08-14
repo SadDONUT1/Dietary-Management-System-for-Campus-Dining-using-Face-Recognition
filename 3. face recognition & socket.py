@@ -14,7 +14,7 @@ cascadePath = "algorithm file path"
 faceCascade = cv2.CascadeClassifier(cascadePath)
 font = cv2.FONT_HERSHEY_TRIPLEX 
 
-final_food_info = [['Jaamcian Pasta', ['']], ['Beef Vindaloo', ['5', '6', '16']], ['Garlic Bread', ['1', '5', '6', '13']], ['Cauliflower with Peas', ['1', '2', '5', '6', '8', '9', '13', '15', '16', '18']], ['Vage Dalcha', ['9', '13']], ['Indian Long Beans', ['1', '2', '5', '']]]
+final_food_info = [['Spaghetti Carbonara', ['']], ['Mexican Rice', ['5', '6', '16']], ['Garlic Bread', ['1', '5', '6', '13']], ['Cauliflower with Peas', ['1', '2', '5', '6', '8', '9', '13', '15', '16', '18']], ['Sushi', ['9', '13']], ['Miso Soup', ['1', '2', '5', '']]]
 
 HOST = 'your current ip address' #ifconfig / ipconfig
 # Enter IP or Hostname of your server
