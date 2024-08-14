@@ -6,8 +6,9 @@ These thoughts came across to me when I faced up a disappointing news article ta
 This is when I decided to take action about the circumstance and create a system that would prevent these incidents from happening. 
 
 ## Table of Content 
-- [Set up the environment ](https://github.com/SadDONUT1/Dietary-Management-System-for-Campus-Dining-using-Face-Recognition/edit/main/README.md#set-up-the-environment)
-- [Step by Step on how to run the program](https://github.com/SadDONUT1/Dietary-Management-System-for-Campus-Dining-using-Face-Recognition/edit/main/README.md#step-by-step-on-how-to-run-the-program)
+- [Set up the environment](https://github.com/SadDONUT1/Dietary-Management-System-for-Campus-Dining-using-Face-Recognition?tab=readme-ov-file#set-up-the-environment)
+- [Step by Step on how to run the program](https://github.com/SadDONUT1/Dietary-Management-System-for-Campus-Dining-using-Face-Recognition?tab=readme-ov-file#step-by-step-on-how-to-run-the-program)
+- [Editing few lines of code](https://github.com/SadDONUT1/Dietary-Management-System-for-Campus-Dining-using-Face-Recognition?tab=readme-ov-file#editing-few-lines-of-code)
 
 ## Set up the environment 
 1. [Python](https://www.python.org/downloads/)
