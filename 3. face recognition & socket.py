@@ -7,16 +7,16 @@ import time
 
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 #trainer path
-recognizer.read('/Users/wonseokhan/Desktop/Visual Studio Code/Python/EPQ/safemeal/trainer/trainer.yml')
+recognizer.read('trainer.yml path')
 
 #haarcascade path 
-cascadePath = "/Users/wonseokhan/Desktop/Visual Studio Code/Python/EPQ/safemeal/haarcascade_frontalface_default.xml"
+cascadePath = "algorithm file path"
 faceCascade = cv2.CascadeClassifier(cascadePath)
 font = cv2.FONT_HERSHEY_TRIPLEX 
 
 final_food_info = [['Jaamcian Pasta', ['']], ['Beef Vindaloo', ['5', '6', '16']], ['Garlic Bread', ['1', '5', '6', '13']], ['Cauliflower with Peas', ['1', '2', '5', '6', '8', '9', '13', '15', '16', '18']], ['Vage Dalcha', ['9', '13']], ['Indian Long Beans', ['1', '2', '5', '']]]
 
-HOST = '172.30.88.219' #ifconfig
+HOST = 'your current ip address' #ifconfig / ipconfig
 # Enter IP or Hostname of your server
 PORT = 20000
 # Pick an open Port (1000+ recommended), must match the server port
