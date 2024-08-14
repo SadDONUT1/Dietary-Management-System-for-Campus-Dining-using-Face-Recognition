@@ -12,17 +12,17 @@ def make_window(food_list, school_id, info_dic):
     window = tkinter.Tk()
     icon = ImageTk.PhotoImage(Image.open(info_dic[school_id][2]))
 
-    window.title("Safe Meals")  # 제목
-    window.geometry("1920x1080")  # 윈도우 창의 너비와 높이, 초기 윈도우 위치 좌표
-    window.resizable(True, True)  # 상하 좌우
+    window.title("Safe Meals")  # title
+    window.geometry("1920x1080")  # width and height of window
+    window.resizable(True, True)  # resizable
 
-    label = tkinter.Label(window, text="Safe Meals", font=("Arial", 100, 'bold'))  # label 이라는 위젯 설정
+    label = tkinter.Label(window, text="Safe Meals", font=("Arial", 100, 'bold'))  
     label.pack()
 
-    label_school_id = tkinter.Label(window, text=f"Student ID: {school_id}", font=("Arial", 50))  # label 이라는 위젯 설정
+    label_school_id = tkinter.Label(window, text=f"Student ID: {school_id}", font=("Arial", 50)) 
     label_school_id.pack()
 
-    label_name = tkinter.Label(window, text=f"Student Name: {info_dic[school_id][0]}", font=("Arial", 50))  # label 이라는 위젯 설정
+    label_name = tkinter.Label(window, text=f"Student Name: {info_dic[school_id][0]}", font=("Arial", 50)) 
     label_name.pack()
     
     label_student_image = tkinter.Label(window, text=f"Student image:", font = ("Arial", 50), justify="left")
@@ -55,16 +55,16 @@ def make_window(food_list, school_id, info_dic):
             treeview.insert('', 'end', text=(i + 1), values=("{}".format(food_list[i][0]), "O"))
     window.mainloop()
     
-HOST = '172.30.88.219'  # ifconfig
+HOST = 'your ip address'  # ifconfig / ipconfig
 # Server IP or Hostname
 PORT = 20000
-# Pick an open Port (1000+ recommended), must match the client sport
+# Pick an Port (1000+ recommended), must match the client sport
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 print('Socket created')
 
 dic = {
-    "12345": ['원석', [1, 5, 9, 10, 15], "/Users/wonseokhan/Desktop/Visual Studio Code/Python/EPQ/safemeal/dataset/12345.1.jpg"],
-    "12346": ['수경', [9, 15, 17], "/Users/wonseokhan/Desktop/Visual Studio Code/Python/EPQ/safemeal/dataset/12345.2.jpg"],
+    "id 1": ['name1', [1, 5, 9, 10, 15], "/Users/wonseokhan/Desktop/Visual Studio Code/Python/EPQ/safemeal/dataset/12345.1.jpg"],
+    "id 2": ['name2', [9, 15, 17], "/Users/wonseokhan/Desktop/Visual Studio Code/Python/EPQ/safemeal/dataset/12345.2.jpg"],
 }
 
 # managing error exception
