@@ -63,8 +63,8 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 print('Socket created')
 
 dic = {
-    "id 1": ['name1', [1, 5, 9, 10, 15], "/Users/wonseokhan/Desktop/Visual Studio Code/Python/EPQ/safemeal/dataset/12345.1.jpg"],
-    "id 2": ['name2', [9, 15, 17], "/Users/wonseokhan/Desktop/Visual Studio Code/Python/EPQ/safemeal/dataset/12345.2.jpg"],
+    "id 1": ['name1', [1, 5, 9, 10, 15], "first photo of first person path"],
+    "id 2": ['name2', [9, 15, 17], "first photo of secfcond person path"],
 }
 
 # managing error exception
