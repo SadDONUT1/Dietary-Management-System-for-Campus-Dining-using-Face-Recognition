@@ -43,6 +43,11 @@ This is when I decided to take action about the circumstance and create a system
 ## Editing few lines of code
 ### Changing paths of file according to the user's detail
 
+Open a terminal and run the following command: 
+
+''' bash 
+ pbcopy "file name / folder name
+
 1. Edit the first "face initialisation" file by copying the path of algorithm file and pasting it on line 4
 
 2. Change line 33 to the path of your dataset folder
