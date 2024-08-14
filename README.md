@@ -41,9 +41,9 @@ This is when I decided to take action about the circumstance and create a system
 
 2. Change line 33 to the path of your dataset folder
 
-3. Move on to the second file and change line 7 to path of dataset folder
+3. Move on to the second file and change line 6 to path of dataset folder
 
-4. Change line 10 to algorithm file path and line 39 to path of trainer and add /trainer.yml at the end
+4. Change line 9 to algorithm file path and line 38 to path of trainer and add /trainer.yml at the end
 
 5. Carry on to the third file and edit line 10 and 13 to "trainer.yml" path and algorithm file respectively
 
