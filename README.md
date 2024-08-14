@@ -5,6 +5,10 @@ What if they were not aware that the food contains those harmful ingredients?
 These thoughts came across to me when I faced up a disappointing news article talking about a student passing out from allergens. 
 This is when I decided to take action about the circumstance and create a system that would prevent these incidents from happening. 
 
+## Table of Content 
+- Set up the environment 
+- Step by Step on how to run the program
+
 ## Set up the environment 
 1. [Python](https://www.python.org/downloads/)
 2. Install required python library modules
@@ -51,6 +55,5 @@ This is when I decided to take action about the circumstance and create a system
 
 7. and.. you are ready!
    
-8. hello hello
 
 
