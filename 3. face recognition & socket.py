@@ -14,6 +14,8 @@ cascadePath = "algorithm file path"
 faceCascade = cv2.CascadeClassifier(cascadePath)
 font = cv2.FONT_HERSHEY_TRIPLEX 
 
+#numbers representing which menu includes which ingredient
+#1. eggs 2. milk 3.buckwheat 4.peanuts 5.soybean 6.wheat 7.mackerel 8.crab 9.shrimp 10.pork 11.peach 12.tomato 13.sulfite 14.walnut 15.chicken 16.beef 17.squid 18.clam (including oyster, abalone, mussel) 19.pine nut
 final_food_info = [['Spaghetti Carbonara', ['']], ['Mexican Rice', ['5', '6', '16']], ['Garlic Bread', ['1', '5', '6', '13']], ['Cauliflower with Peas', ['1', '2', '5', '6', '8', '9', '13', '15', '16', '18']], ['Sushi', ['9', '13']], ['Miso Soup', ['1', '2', '5', '']]]
 
 HOST = 'your current ip address' #ifconfig / ipconfig
