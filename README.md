@@ -41,6 +41,7 @@ This is when I decided to take action about the circumstance and create a system
 <img align = "centre" width="250" alt="four_files" src="https://github.com/user-attachments/assets/a68dae9a-ca51-45ef-8a9d-50bec7780f81">
 
 ## Editing few lines of code
+### Changing paths of file according to the user's detail
 
 1. Edit the first "face initialisation" file by copying the path of algorithm file and pasting it on line 4
 
