@@ -21,13 +21,17 @@ This is when I decided to take action about the circumstance and create a system
    
 4. [Download required algorithm file](https://github.com/kipr/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml)
 
-## Step by Steps about how to run the program 
+<img align = "right" width="700" alt="four_files" src="https://github.com/user-attachments/assets/35b06921-ede1-4109-a183-81d87279d71c">
+
+## Step by Step on how to run the program 
 
 1. Download four python files on the file list
 
 2. Create a folder and name it as you want
 
 3. In that folder, add all the files that you have downloaded
+
+<img align = "right" width="300" alt="four_files" src="https://github.com/user-attachments/assets/a68dae9a-ca51-45ef-8a9d-50bec7780f81">
 
 4. Create an empty folder called "dataset" and "trainer"
 
