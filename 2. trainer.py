@@ -3,11 +3,10 @@ import numpy as np
 from PIL import Image
 import os
 
-# Path for face image database
-path = '/Users/wonseokhan/Desktop/Visual Studio Code/Python/EPQ/safemeal/dataset'
+path = 'path for dataset folder'
 
 recognizer = cv2.face.LBPHFaceRecognizer_create()
-detector = cv2.CascadeClassifier("/Users/wonseokhan/Desktop/Visual Studio Code/Python/EPQ/safemeal/haarcascade_frontalface_default.xml")
+detector = cv2.CascadeClassifier("algorithm file path")
 
 # function to get the images and label data
 def getImagesAndLabels(path):
@@ -35,8 +34,8 @@ print ("\n [INFO] Training faces. It will take a few seconds. Wait ...")
 faces,ids = getImagesAndLabels(path)
 recognizer.train(faces, np.array(ids))
 
-# Save the model into trainer/trainer.yml
-recognizer.write('/Users/wonseokhan/Desktop/Visual Studio Code/Python/EPQ/safemeal/trainer/trainer.yml') # recognizer.save() worked on Mac, but not on Pi
+# add "/trainer.yml" at the end of trainer folder path
+recognizer.write('trainer folder path /trainer.yml') # recognizer.save() worked on Mac, but not on Pi
 
 # Print the numer of faces / people trained and end program
 print("\n [INFO] {0} faces trained. Exiting Program".format(len(np.unique(ids))))
