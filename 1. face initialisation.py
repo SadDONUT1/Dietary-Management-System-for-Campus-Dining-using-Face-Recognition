@@ -1,7 +1,7 @@
 import cv2 #OpenCV 
 
-#classifier                            #paths of face initionlising algorthm file 
-faceCascade = cv2.CascadeClassifier('/Users/wonseokhan/Desktop/Visual Studio Code/Python/EPQ/safemeal/haarcascade_frontalface_default.xml')
+#classifier                            
+faceCascade = cv2.CascadeClassifier('path of algorithm file (haarcascade_frontalface_default.xml)')
 
 #video caputure setting
 capture = cv2.VideoCapture(0) # initialize, # is camera number
@@ -30,7 +30,7 @@ while True:
     for (x,y,w,h) in faces:
         cv2.rectangle(frame,(x,y),(x+w,y+h),(255,0,0),2)
         count += 1
-        cv2.imwrite("/Users/wonseokhan/Desktop/Visual Studio Code/Python/EPQ/safemeal/dataset/"+str(face_id)+'.'+str(count)+".jpg",gray[y:y+h, x:x+w])
+        cv2.imwrite("dataset folder path"+str(face_id)+'.'+str(count)+".jpg",gray[y:y+h, x:x+w])
         cv2.imshow('image',frame)
 
     #종료 조건
