@@ -45,8 +45,9 @@ This is when I decided to take action about the circumstance and create a system
 
 Open a terminal and run the following command: 
 
-''' bash 
- pbcopy "file name / folder name
+```bash
+pbcopy 'file name / folder name'
+```
 
 1. Edit the first "face initialisation" file by copying the path of algorithm file and pasting it on line 4
 
