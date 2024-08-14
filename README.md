@@ -51,6 +51,6 @@ This is when I decided to take action about the circumstance and create a system
 
 7. and.. you are ready!
    
-8. I have made changes using git push!
+8. hello hello
 
 
