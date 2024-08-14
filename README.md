@@ -50,5 +50,7 @@ This is when I decided to take action about the circumstance and create a system
 6. Change the host as your current IP address (_$ipconfig getifaddr en0 for mac_), same for the next file 
 
 7. and.. you are ready!
+   
+8. I have made changes using git push!
 
 
