@@ -6,10 +6,10 @@ import requests
 import time
 
 recognizer = cv2.face.LBPHFaceRecognizer_create()
-#trainer 경로
+#trainer path
 recognizer.read('/Users/wonseokhan/Desktop/Visual Studio Code/Python/EPQ/safemeal/trainer/trainer.yml')
 
-#haarcascade 경로 
+#haarcascade path 
 cascadePath = "/Users/wonseokhan/Desktop/Visual Studio Code/Python/EPQ/safemeal/haarcascade_frontalface_default.xml"
 faceCascade = cv2.CascadeClassifier(cascadePath)
 font = cv2.FONT_HERSHEY_TRIPLEX 
@@ -88,7 +88,6 @@ while True:
     if k == 27:
         break
     
-# Do a bit of cleanup
 print("\n [INFO] Exiting Program and cleanup stuff")
 cam.release()
 cv2.destroyAllWindows()
