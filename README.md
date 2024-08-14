@@ -21,13 +21,27 @@ This is when I decided to take action about the circumstance and create a system
    
 4. [Download required algorithm file](https://github.com/kipr/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml)
 
-5. Download four python files on the file list
+## Step by Steps about how to run the program 
 
-6. Create a folder and name it as you want
+1. Download four python files on the file list
 
-7. In that folder, add all the files that you have downloaded
+2. Create a folder and name it as you want
 
-8. Create an empty folder called "dataset" and "trainer" 
+3. In that folder, add all the files that you have downloaded
 
-9. and.. you are ready!
+4. Create an empty folder called "dataset" and "trainer"
+
+5. Edit the first "face initialisation" file by copying the path of algorithm file and pasting it on line 4
+
+6. Change line 33 to the path of your dataset folder
+
+7. Move on to the second file and change line 7 to path of dataset folder
+
+8. Change line 10 to algorithm file path and line 39 to path of trainer and add /trainer.yml at the end
+
+9. Carry on to the third file and edit line 10 and 13 to "trainer.yml" path and algorithm file respectively
+
+10. Change the host as your current IP address (_$ipconfig getifaddr en0 for mac_), same for the next file 
+
+12. and.. you are ready!
 
