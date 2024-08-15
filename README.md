@@ -43,11 +43,13 @@ This is when I decided to take action about the circumstance and create a system
 ## Editing few lines of code
 ### Changing paths of file according to the user's detail
 
-Open a terminal and run the following command: 
+Open a terminal, change the working directory to the folder and run the following command: 
 
 ```bash
-pbcopy 'file name / folder name'
+'file name / folder name' | pbcopy
 ```
+
+This line of code allow you to copy the path of certain file or folder (useful when you use terminal as output) 
 
 1. Edit the first "face initialisation" file by copying the path of algorithm file and pasting it on line 4
 
