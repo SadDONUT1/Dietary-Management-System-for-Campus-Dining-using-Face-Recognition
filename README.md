@@ -5,7 +5,7 @@ What if they were not aware that the food contains those harmful ingredients?
 These thoughts came across to me when I faced up a disappointing news article talking about a student passing out from allergens. 
 This is when I decided to take action about the circumstance and create a system that would prevent these incidents from happening. 
 
-<img align = "centre" width="250" alt="four_files" src="https://github.com/user-attachments/assets/561b8dbc-5e82-40db-b755-fbe177a72f95">
+<img align = "right" width="250" alt="four_files" src="https://github.com/user-attachments/assets/561b8dbc-5e82-40db-b755-fbe177a72f95">
 
 
 ## Table of Content 
