@@ -2,11 +2,9 @@
 
 I have always wondered what would happen if the students in our school consume food that they are severely allergic to? 
 What if they were not aware that the food contains those harmful ingredients? 
+<img align = "right" width="250" alt="four_files" src="https://github.com/user-attachments/assets/561b8dbc-5e82-40db-b755-fbe177a72f95">
 These thoughts came across to me when I faced up a disappointing news article talking about a student passing out from allergens. 
 This is when I decided to take action about the circumstance and create a system that would prevent these incidents from happening. 
-
-<img align = "right" width="250" alt="four_files" src="https://github.com/user-attachments/assets/561b8dbc-5e82-40db-b755-fbe177a72f95">
-
 
 ## Table of Content 
 - [Set up the environment](https://github.com/SadDONUT1/Dietary-Management-System-for-Campus-Dining-using-Face-Recognition?tab=readme-ov-file#set-up-the-environment)
